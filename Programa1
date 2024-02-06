@@ -1,0 +1,30 @@
+package prgrama1;
+
+import java.util.Scanner;
+
+public class Prgrama1 {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingresa un texto: ");
+        String Palabra = scanner.nextLine();
+
+   
+
+        // Verifica si es palindromo el texto
+        boolean Palindromo = true;
+        for (int i = 0; i < Palabra.length(); i++) {
+            
+        }
+
+        // Imprimir resultados
+        if (Palindromo) {
+            System.out.println("El texto  es un palíndromo");
+        } else {
+            System.out.println("El texto  no es un palíndromo");
+        }
+    }
+
+}
